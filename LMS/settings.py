@@ -21,8 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-qyt9*7**l^$m(n31!vd)7v!f(1_tbx9@of49lazv9qy**#isrm'
-
+SECRET_KEY = ""
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -144,16 +143,11 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'timsonfoli@gmail.com'
-EMAIL_HOST_PASSWORD = 'Aivaegbeoghena@1984'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 
 CRISPY_TEMPLATE_PACK = "bootstrap5"
 SITE_ID = 1
 
-PUBLIC_KEY = 'pk_test_6ed8e074eccbd6d8798bf9e674928cf38b62a66c'
-SECRET_KEY =  'sk_test_1b2c057e7468c79a19185e68eab7f3ef2ef81883'
-
-PK_FLU="FLWPUBK_TEST-9fdb696e6231ed66705c0838462ddf5a-X"
-SK_FLU="FLWSECK_TEST-60ac8e059e21962e517ce2b17065dda2-X"
